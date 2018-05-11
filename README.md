@@ -14,6 +14,9 @@ https://pugjs.org/api/getting-started.html
 Axios:
 https://github.com/axios/axios
 
+Knex:
+http://knexjs.org/
+
 body-parser:
 https://github.com/expressjs/body-parser
 
