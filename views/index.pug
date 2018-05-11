@@ -1,0 +1,48 @@
+extends layout
+
+block main
+  .container
+    .row(style="margin-bottom:30px; margin-top: 30%;")
+      .col
+        .card
+          .card-body
+            h1 Iserir dados
+
+            .form-group
+              label(for="nome")
+              input(type="text", id="nome", class="form-control")
+
+            .form-group
+              form-check.form-check-inline
+                input(type="radio", id="masculino", class="form-check-input", name="sexo", data-value="1")
+                label(for="masculino", class="form-check-label") Masculino
+
+              form-check.form-check-inline
+                input(type="radio", id="feminino", class="form-check-input", name="sexo", data-value="2")
+                label(for="feminino", class="form-check-label") Feminino
+              
+              select(id="estado", name="estado")
+                option(value="Nordeste") Nordeste
+                option(value="Norte") Norte
+                option(value="Centro-Oeste") Centro-Oeste
+                option(value="Suldeste") Suldeste
+                option(value="Sul") Sul
+            button(class="btn  btn-primary", id="cadastrar") cadastrar
+            
+    .row(style="margin-bottom:30px;")
+      .col-6
+        .card
+          .card-body
+            canvas(id="sexoChart")
+
+      .col-6
+        .card
+          .card-body
+            canvas(id="dataChart")
+      
+    .row(style="margin-bottom:30px;")  
+      .col-6
+        .card
+          .card-body
+            canvas(id="regiaoChart")      
+      
