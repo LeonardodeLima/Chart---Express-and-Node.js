@@ -2,19 +2,19 @@
 
 Os seguintes módulos e ferramentas foram utilizados para o desenvolvimento da aplicação:
 
-Express:
+Chartjs:
+http://www.chartjs.org/
 
+Express:
 http://expressjs.com/en/guide/writing-middleware.html
 
-Pug HTML
+Pug HTML:
 https://pugjs.org/api/getting-started.html
 
 Axios:
-
 https://github.com/axios/axios
 
 body-parser:
-
 https://github.com/expressjs/body-parser
 
 ## Instalação e execução
